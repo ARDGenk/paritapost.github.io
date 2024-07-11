@@ -1,0 +1,452 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	display: flex; width: 100%; height: 100%;
+	flex-direction: column;
+/*	border: 1px solid black;*/
+	margin: auto;
+}
+
+/* START HEADER */
+.container .container-head{
+	width: auto; height: auto; 
+/*	background-color: #FFF5E0;*/
+	margin: auto;
+}
+
+.container .container-head .head{
+	width: auto; height: auto;
+	display: flex;
+	flex-direction: row;
+	padding: 0 15px;
+}
+
+.container .container-head .head .logo{
+	width: 300px; height: 75px;
+	display: flex;
+	justify-content: left;
+	align-items: center;
+}
+
+.container .container-head .head .logo .img{
+	margin-top: -12.5px;
+	background: url("../img/name-logo.png");
+	width: 100px; height: 75px;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container .container-head .head .search{
+	width: 500px; height: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .container-head .head .search #search{
+	width: 300px; height: 17.5px;
+	border-radius: 3px;
+	padding: 0 5px;
+	font-weight: bold;
+}
+
+.container .container-head .head .btn-head{
+	width: auto; height: auto;
+	display: flex;
+	justify-content: right;
+	align-items: center;
+	padding: 0 15px;
+}
+
+.container .container-head .head .btn-head a{
+	border: 1px solid #141E46;
+	border-radius: 25px;
+	width: 100px; height: 20px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	background-color: #fff;
+	color: #C70039;
+	font-size: 12.5px;
+	cursor: pointer;
+	font-weight: bold;
+	margin: 0 5px;
+}
+
+.container .container-head .head .btn-head a:hover{
+	color: black;
+	border: 1px solid #C70039;
+}
+/* END HEADER */
+
+/* START CONTENT */
+.container .container-content{
+	width: auto; height: auto;
+	margin: auto;
+}
+
+.container .container-content .container-kategori{
+	width: auto; height: auto;
+	padding: 0 15px;
+/*	background-color: #FFF5E0;*/
+}
+
+.container .container-content .container-kategori .kategori{
+	width: auto; height: 7.5vh;
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.container .container-content .container-kategori a{
+	width: auto; height: auto;
+	border-bottom: 2px solid transparent;
+	text-decoration: none;
+	font-weight: bold;
+	color: #C70039;
+	font-size: 0.9rem;
+	margin: 0 3px;
+}
+
+.container .container-content .container-kategori a:hover{
+	color: black;
+}
+
+.container .container-content .container-berita{
+	width: auto; height: auto;
+	padding: 15px 15px 0 15px;
+}
+
+.container .container-content .container-berita .berita{
+	width: auto; height: auto;
+/*	border: 1px solid green;*/
+	display: flex;
+	flex-direction: row;
+}
+
+.container .container-content .container-berita .berita .beritaTerkini, .topikPopuler{
+	width: 50%; height: auto;
+	border: 1px solid blue;
+}
+
+.container .container-content .container-berita .berita .beritaTerkini .img-beritaTerkini {
+	width: auto; height: auto;
+/*	border: 1px solid green;*/
+	background: url("../img/img-logo.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container .container-content .container-berita .berita .beritaTerkini .img-beritaTerkini .isi-beritaTerkini{
+	width: auto; height: auto;
+/*	border: 1px solid red;*/
+	display: flex;
+	flex-direction: column;
+	padding: 0 25px;
+}
+
+.container .container-content .container-berita .berita .beritaTerkini .img-beritaTerkini .isi-beritaTerkini a{
+	width: auto; height: auto;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	font-size: 1.2rem;
+	font-weight: bold;
+/*	border: 1px solid green;*/
+	margin: 400px 0 0 0;
+	position: relative;
+	bottom: 50px;
+}
+
+.container .container-content .container-berita .berita .beritaTerkini .img-beritaTerkini .isi-beritaTerkini h6{
+	border: none;
+	position: relative;
+	bottom: 50px;
+}
+
+.container .container-content .container-berita .container-beritaTerbaru{
+	width: auto; height: auto;
+/*	border: 1px solid red;*/
+	padding-top: 15px;
+}
+
+.container .container-content .container-berita .container-beritaTerbaru p{
+	font-weight: bold; font-size: 1.2rem;
+/*	border-bottom: 2px solid black;*/
+	width: 100px;
+}
+
+.container .container-content .container-berita .container-beritaTerbaru .beritaTerbaru{
+	width: auto; height: auto;
+/*	border: 1px solid red;*/
+	margin-top: 15px;
+	display: flex;
+	flex-direction: column;
+}
+
+.container .container-content .container-berita .container-beritaTerbaru .beritaTerbaru .berita1, .berita2, .berita3{
+	width: auto; height: 20vh;
+/*	border: 1px solid blue;*/
+	display: flex;
+	flex-direction: row;
+}
+
+.container .container-content .container-berita .container-beritaTerbaru .beritaTerbaru .berita1 .img-beritaTerbaru{
+	width: 15%; height: auto;
+/*	border: 1px solid green;*/
+	border-radius: 25px;
+	background: url("../img/img-logo.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 15px 0 15px 15px;
+}
+
+.container .container-content .container-berita .container-beritaTerbaru .beritaTerbaru .berita2 .img-beritaTerbaru{
+	width: 15%; height: auto;
+/*	border: 1px solid green;*/
+	border-radius: 25px;
+	background: url("../img/img-logo.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 15px 0 15px 15px;
+}
+
+.container .container-content .container-berita .container-beritaTerbaru .beritaTerbaru .berita3 .img-beritaTerbaru{
+	width: 15%; height: auto;
+/*	border: 1px solid green;*/
+	border-radius: 25px;
+	background: url("../img/img-logo.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin: 15px 0 15px 15px;
+}
+
+.container .container-content .container-berita .container-beritaTerbaru .beritaTerbaru .berita1 .isi-beritaTerbaru{
+	width: 100%; height: auto;
+	margin: 15px;
+/*	border: 1px solid green;*/
+	border-radius: 15px;
+}
+
+.container .container-content .container-berita .container-beritaTerbaru .beritaTerbaru .berita2 .isi-beritaTerbaru{
+	width: 100%; height: auto;
+	margin: 15px;
+/*	border: 1px solid green;*/
+	border-radius: 15px;
+}
+
+.container .container-content .container-berita .container-beritaTerbaru .beritaTerbaru .berita3 .isi-beritaTerbaru{
+	width: 100%; height: auto;
+	margin: 15px;
+/*	border: 1px solid green;*/
+	border-radius: 15px;
+}
+
+.container .container-content .container-berita .container-beritaTerbaru .beritaTerbaru .berita1 .isi-beritaTerbaru .container-isi{
+	display: flex;
+	flex-direction: column;
+	width: auto; height: auto;
+	padding: 27.5px 0;
+}
+
+.container .container-content .container-berita .container-beritaTerbaru .beritaTerbaru .berita1 .isi-beritaTerbaru .container-isi a, h6, h4{
+	width: auto; height: auto;
+/*	border: 1px solid red;*/
+}
+
+.container .container-content .container-berita .container-beritaTerbaru .beritaTerbaru .berita1 .isi-beritaTerbaru .container-isi a{
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.container .container-content .container-berita .container-beritaTerbaru .beritaTerbaru .berita2 .isi-beritaTerbaru .container-isi{
+	display: flex;
+	flex-direction: column;
+	width: auto; height: auto;
+	padding: 27.5px 0;
+}
+
+.container .container-content .container-berita .container-beritaTerbaru .beritaTerbaru .berita2 .isi-beritaTerbaru .container-isi a, h6, h4{
+	width: auto; height: auto;
+/*	border: 1px solid red;*/
+}
+
+.container .container-content .container-berita .container-beritaTerbaru .beritaTerbaru .berita2 .isi-beritaTerbaru .container-isi a{
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.container .container-content .container-berita .container-beritaTerbaru .beritaTerbaru .berita3 .isi-beritaTerbaru .container-isi{
+	display: flex;
+	flex-direction: column;
+	width: auto; height: auto;
+	padding: 27.5px 0;
+}
+
+.container .container-content .container-berita .container-beritaTerbaru .beritaTerbaru .berita3 .isi-beritaTerbaru .container-isi a, h6, h4{
+	width: auto; height: auto;
+/*	border: 1px solid red;*/
+}
+
+.container .container-content .container-berita .container-beritaTerbaru .beritaTerbaru .berita3 .isi-beritaTerbaru .container-isi a{
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+	font-weight: bold;
+}
+
+.container .container-content .container-berita .container-beritaTerbaru .readmore{
+	width: 50%; height: 25px;
+	margin: 15px auto;
+	border: 1px solid #141E46;
+	border-radius: 25px;
+	display: flex;
+	font-size: 0.8rem;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	text-decoration: none;
+	color: #C70039;
+	font-weight: bold;
+}
+
+.container .container-content .container-berita .container-beritaTerbaru .readmore:hover{
+	color: black;
+	border: 1px solid #C70039;
+}
+/* END CONTENT */
+
+/* START FOOTER */
+.container .container-footer{
+	width: auto; height: auto;
+	background-color: #FFF5E0;
+	padding: 0 15px;
+}
+
+.container .container-footer .container-contact{
+	width: auto; height: auto;
+/*	border: 1px solid blue;*/
+	display: flex;
+	flex-direction: row;
+}
+
+.container .container-footer .container-contact .paritapost{
+	width: auto; height: auto;
+/*	border: 1px solid green;*/
+	display: flex;
+	flex-direction: column;
+}
+
+.container .container-footer .container-contact .jelajahi{
+	width: 50%; height: auto;
+/*	border: 1px solid red;*/
+	display: flex;
+	flex-direction: column;
+}
+
+	
+.container .container-footer .container-contact .paritapost .logo{
+	width: 300px; height: auto;
+/*	border: 1px solid green;*/
+	margin: auto;
+}
+
+.container .container-footer .container-contact .paritapost .logo .img{
+	width: 300px; height: 100px;
+	border: 1px solid blue;
+/*	background: url("../img/name-logo.png");*/
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
+.container .container-footer .container-contact .paritapost .deksripsi{
+	width: auto; height: auto;
+/*	border: 1px solid green;*/
+}
+
+.container .container-footer .container-contact .paritapost .deksripsi p{
+	text-align: justify;
+	color:  black;
+	margin: 0 105px;
+}
+
+.container .container-footer .container-contact .jelajahi p{
+	font-weight: bold; font-size: 1.2rem;
+	width: 100px;
+	padding: 15px 15px 0 15px;
+}
+
+.container .container-footer .container-contact .jelajahi .kategori{
+	width: auto; height: auto;
+/*	border: 1px solid blue;*/
+	display: flex;
+	flex-direction: row;
+}
+
+.container .container-footer .container-contact .jelajahi .kategori .ktk1, .ktk2, .ktk3{
+	width: 300px; height: 175px;
+/*	border: 1px solid red;*/
+}
+
+.container .container-footer .container-contact .jelajahi .kategori .ktk1 a{
+	text-decoration: none;
+	padding: 0 15px;
+	width: auto; height: auto;
+/*	border: 1px solid blue;*/
+	display: flex;
+	color: black;
+	justify-content: left;
+}
+
+.container .container-footer .container-contact .jelajahi .kategori .ktk2 a{
+	text-decoration: none;
+	padding: 0 15px;
+	width: auto; height: auto;
+/*	border: 1px solid blue;*/
+	display: flex;
+	color: black;
+	justify-content: left;
+}
+
+.container .container-footer .container-contact .jelajahi .kategori .ktk3 a{
+	text-decoration: none;
+	padding: 0 15px;
+	width: auto; height: auto;
+/*	border: 1px solid blue;*/
+	display: flex;
+	color: black;
+	justify-content: left;
+}
+
+.container .container-footer .nav-footer{
+	width: auto; height: auto;
+/*	border: 1px solid red;*/
+	display: flex;
+	justify-content: center;
+}
+
+.container .container-footer .nav-footer a{
+	text-decoration: none;
+	color:  black;
+	font-size: 0.8rem;
+	cursor: pointer;
+	padding: 15px;
+/*	border: 1px solid blue;*/
+}
+
+.container .container-footer .cp{
+	width: auto; height: auto;
+	text-align: center;
+	font-weight: bold;
+	padding: 15px;
+}
+/* END FOOTER */
