@@ -131,7 +131,7 @@
 
 .container .container-content .container-berita .berita .beritaTerkini, .topikPopuler{
 	width: 50%; height: auto;
-	border: 1px solid blue;
+/* 	border: 1px solid blue; */
 }
 
 .container .container-content .container-berita .berita .beritaTerkini .img-beritaTerkini {
